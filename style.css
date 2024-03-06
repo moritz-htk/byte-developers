@@ -16,6 +16,23 @@ header {
     padding: 6px;
 }
 
+header img {
+    height: auto;
+    margin-right: 10px;
+    width: 32px;
+}
+
+header a {
+    align-items: center;
+    color: white;
+    display: flex;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #BDBDBD;
+}
+
 nav {
     display: flex;
     justify-content: flex-end;
