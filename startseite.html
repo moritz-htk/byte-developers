@@ -3,15 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/swiper.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="icon" type="image/png" href="img/icon.png">
         <title>Startseite - Byte Developers</title>
-        <link rel="icon" type="image/png" href="icon.png">
     </head>
     <body>
         <header>
             <h2>
                 <a href="startseite.html">
-                    <img src="icon.png" alt="Website Icon">
+                    <img src="img/icon.png" alt="Website Icon">
                     Byte Developers
                 </a>
             </h2>
@@ -21,6 +23,23 @@
                 <a href="seite3.html">Seite 3</a>
             </nav>
         </header>
+        <section class="banner-swiper">
+            <div class="swiper imageSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/office1.png" alt="Slide 1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/console1.jpg" alt="Slide 2">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+            <script src="scripts/swiper.js"></script>
+        </section>
         <footer>
             <p>Copyright © 2024. Alle Rechte vorbehalten.</p>
             <nav class="footer">
